@@ -1,0 +1,752 @@
+: 1495004597:0;vim .zshrc
+: 1495004899:0;source .zshrc
+: 1495004902:0;ls
+: 1495004937:0;cd Downloads
+: 1495004942:0;ls
+: 1495004945:0;cd Silicon.Valley.S04E0
+: 1495004949:0;cd Silicon.Valley.S04E02.720p.HDTV.x264-AVS\[rarbg\]
+: 1495005050:0;~
+: 1495005056:0;vim .zshrc
+: 1495005072:0;source .zshrc
+: 1495005074:0;ls
+: 1495005078:0;cd Do
+: 1495005084:0;cd Pictures
+: 1495005086:0;ls
+: 1495005091:0;pwt
+: 1495005099:0;cd ..
+: 1495005109:0;cd Downloads/Silicon.Valley.S04E02.720p.HDTV.x264-AVS\[rarbg\]
+: 1495005111:0;ls
+: 1495005118:0;pwt
+: 1495005122:0;~
+: 1495005230:0;vim .zshrc
+: 1495005244:0;source .zshrc
+: 1495005247:0;vim .zshrc
+: 1495005356:0;source .zshrc
+: 1495005358:0;ls
+: 1495005365:0;git
+: 1495005514:0;vim .zshrc
+: 1495005526:0;source .zshrc
+: 1495005528:0;ls
+: 1495005534:0;cd .oh-my-zsh
+: 1495008566:0;cd ..
+: 1495008568:0;cd Downloads
+: 1495008572:0;lsblk
+: 1495008612:0;dd if=Fedora-SoaS-Live-x86_64-25-1.3.iso of=/dev/sdc
+: 1495008616:0;sudo dd if=Fedora-SoaS-Live-x86_64-25-1.3.iso of=/dev/sdc
+: 1495011327:0;cd ..
+: 1495011330:0;mc
+: 1495014521:0;curl -LO https://download.sublimetext.com/sublime_text_3_build_3126_x64.tar.bz2
+: 1495014602:0;mv sublime_text_3_build_3126_x64.tar.bz2 Bin
+: 1495014604:0;cd Bin
+: 1495014617:0;tar xvjf sublime_text_3_build_3126_x64.tar.bz2
+: 1495014621:0;cd sublime_text_3
+: 1495014695:0;sudo cp -rf sublime_text.desktop /usr/share/applications sublime_text.desktop
+: 1495014734:0;sudo cp -rf sublime_text_3/sublime_text.desktop /usr/share/applications sublime_text.desktop
+: 1495014761:0;sudo cp -rf sublime_text.desktop /usr/share/applications/sublime_text.desktop
+: 1495014858:0;sudo mv sublime_text_3 /opt/sublime_text
+: 1495014883:0;cd ..
+: 1495014919:0;sudo mv sublime_text_3 /opt/sublime_text
+: 1495014978:0;sudo ln -s /opt/sublime_text/sublime_text /usr/bin/subl
+: 1495015002:0;sudo ln -s tg/bin/telegram-cli /usr/bin/tg
+: 1495015005:0;tg
+: 1495015014:0;exit
+: 1495015025:0;subl
+: 1495015048:0;mc
+: 1495021065:0;sudo dnf install httpd
+: 1495021105:0;systemctl start httpd.service
+: 1495021122:0;systemctl enable httpd.service
+: 1495021669:0;mc
+: 1495021815:0;sudo gedit /etc/httpd/conf.d/userdir.conf
+: 1495021836:0;sudo vim /etc/httpd/conf.d/userdir.conf
+: 1495021901:0;sudo systemctl restart httpd.service
+: 1495021911:0;sudo vim /etc/httpd/conf.d/userdir.conf
+: 1495021944:0;sudo systemctl restart httpd.service
+: 1495022013:0;chmod 711 /home/ipopovic
+: 1495022023:0;chmod 755 /home/ipopovic/www
+: 1495022767:0;gnome-tweak-tool
+: 1495023058:0;sudo dnf install mpeg123
+: 1495023172:0;sudo dnf history
+: 1495023189:0;sudo dnf history info 5
+: 1495023213:0;sudo dnf install gstreamer1-plugins-ugly
+: 1495023276:0;sudo dnf install gstreamer-plugins-good gstreamer-plugins-bad
+: 1495023373:0;sudo dnf install gstreamer1-plugin-mpg123 mpg123-libs
+: 1495023663:0;sudo dnf install gstreamer-plugins-bad gstreamer-plugins-bad-free-extras gstreamer-plugins-bad-nonfree gstreamer-plugins-ugly gstreamer-ffmpeg
+: 1495023672:0;sudo dnf install gstreamer-plugins-bad gstreamer-plugins-bad-free-extras gstreamer-plugins-ugly gstreamer-ffmpeg
+: 1495023717:0;sudo setsebool -P httpd_enable_homedirs on
+: 1495044354:0;sudo vim /etc/httpd/conf/httpd.conf
+: 1495044497:0;sudo systemctl restart httpd.service
+: 1495044526:0;sudo systemctl httpd restart
+: 1495044548:0;sudo service httpd restart
+: 1495044596:0;sudo vim /etc/httpd/conf.d/userdir.conf
+: 1495044627:0;sudo service httpd restart
+: 1495044660:0;sudo dnf install moc
+: 1495044814:0;sudo dnf -y install checkpolicy policycoreutils-python-utils
+: 1495044830:0;sudo setsebool -P httpd_enable_homedirs on 
+: 1495057110:0;cd Bin
+: 1495057116:0;cd tg
+: 1495057155:0;cd bin
+: 1495057172:0;htop
+: 1495091591:0;cd Bin/android-studio
+: 1495091594:0;cd bin
+: 1495091599:0;./studio.sh
+: 1495101110:0;~
+: 1495101113:0;sudo dnf install tilix
+: 1495101144:0;sudo dnf copr enable heikoada/terminix
+: 1495101188:0;sudo dnf install terminix
+: 1495101251:0;htop
+: 1495101261:0;sudo dnf install htop
+: 1495101323:0;sudo dnf install nuntius
+: 1495101392:0;notify-send --help
+: 1495101400:0;notify-send nknkjn]
+: 1495101442:0;sudo dnf install task
+: 1495101490:0;task
+: 1495121384:0;sudo dnf install mysql-server
+: 1495121638:0;sudo dnf install php
+: 1495122699:0;sudo dnf install php-mysqlnd
+: 1495122719:0;sudo dnf install php-mcrypt
+: 1495122737:0;sudo dnf install phpmyadmin
+: 1495122821:0;sudo systemctl start mysqld
+: 1495122897:0;sudo systemctl restart httpd.service
+: 1495122941:0;sudo vim /var/www/html
+: 1495122949:0;sudo vim /var/www/html/index.html
+: 1495122960:0;sudo vim /var/www/html/index.php
+: 1495123016:0;sudo rm /var/www/html/index.html
+: 1495123353:0;sudo systemctl stop mysqld
+: 1495123429:0;sudo dnf install mysql-server
+: 1495123453:0;sudo dnf remove community-mysql-server
+: 1495123513:0;sudo dnf install mariadb mariadb-server -y
+: 1495123563:0;y
+: 1495123593:0;sudo systemctl start mariadb
+: 1495123645:0;mysql_secure_installation
+: 1495123682:0;sudo systemctl restart httpd.service
+: 1495123693:0;mysql_secure_installation
+: 1495123850:0;sudo mysql_secure_installation
+: 1495123925:0;socket=/var/lib/mysql/mysql.sock
+: 1495123941:0;mysqladmin -u root -p status
+: 1495123990:0;su mysq.sock
+: 1495124101:0;sudo su -
+: 1495124455:0;sudo dnf install vagrant
+: 1495124594:0;htop
+: 1495138189:0;sudo dbf update
+: 1495138197:0;sudo dnf update
+: 1495138225:0;ls
+: 1495138244:0;sudo dnf update
+: 1495138536:0;curl -L http://git.io/firefoxdev | sh
+: 1495138681:0;mocp
+: 1495138691:0;sudo dnf install moc
+: 1495138703:0;mocp
+: 1495138716:0;htop
+: 1495138727:0;cd Bin/tg/bin
+: 1495138733:0;./telegram-cli
+: 1495139610:0;~
+: 1495141426:0;sudo systemctl stop mariadb
+: 1495141446:0;sudo dnf install mariadb
+: 1495141462:0;sudo dnf remove mariadb
+: 1495141507:0;sudo dnf install mysql mysql-server
+: 1495141571:0;sudo service mysqld start
+: 1495141584:0;sudo /usr/bin/mysql_secure_installation
+: 1495141714:0;sudo systemctl restart httpd.service
+: 1495177055:0;sudo service mysqld start
+: 1495177455:0;sudo /usr/bin/mysql_secure_installation
+: 1495177521:0;sudo dnf install php php-mysql
+: 1495177537:0;sudo dnf install php-mysql
+: 1495177591:0;sudo dnf search php-
+: 1495177742:0;sudo chkconfig httpd on
+: 1495177752:0;sudo chkconfig mysqld on
+: 1495178715:0;htop
+: 1495178962:0;sudo systemctl stop httpd.service
+: 1495178972:0;sudo systemctl start httpd.service
+: 1495179044:0;sudo mc
+: 1495179173:0;sudo vim /etc/httpd/conf.d/userdir.conf
+: 1495179233:0;sudo vim /etc/httpd/conf.d/welcome.conf
+: 1495179288:0;sudo vim /etc/httpd/conf.d/flance.conf
+: 1495179332:0;sudo systemctl start httpd.service
+: 1495179336:0;sudo systemctl restart httpd.service
+: 1495179380:0;chmod 755 public_html
+: 1495179394:0;vim public_html/index.php
+: 1495179437:0;sudo vim /etc/httpd/conf.d/userdir.conf
+: 1495179470:0;sudo mc
+: 1495179655:0;sudo systemctl restart httpd.service
+: 1495179676:0;chmod -R 755 www
+: 1495179731:0;sudo mc
+: 1495179771:0;sudo systemctl restart httpd.service
+: 1495186389:0;sudo vim /etc/httpd/conf/httpd.conf
+: 1495186609:0;sudo systemctl restart httpd.service
+: 1495186620:0;sudo vim /etc/hosts
+: 1495192570:0;sudo dnf install phpmyadmin -y
+: 1495192652:0;sudo vim /etc/httpd/conf.d/phpMyAdmin.conf
+: 1495192791:0;sudo systemctl restart httpd
+: 1495192953:0;curl -sS https://getcomposer.org/installer | php
+: 1495193112:0;sudo mv composer.phar /usr/local/bin/composer
+: 1495193140:0;chmod +x /usr/local/bin/composer
+: 1495193149:0;composer -V
+: 1495193164:0;composer global require "laravel/installer"
+: 1495193383:0;vim .zshrc
+: 1495193726:0;laravel
+: 1495194026:0;cd web
+: 1495194027:0;ls
+: 1495194052:0;laravel new kuhinja
+: 1495195227:0;cd kuhinja
+: 1495195229:0;la
+: 1495195232:0;ls
+: 1495195983:0;php artisan serve
+: 1495196151:0;cd ..
+: 1495196162:0;sudo dnf install telegram-cli
+: 1495196189:0;sudo dnf update
+: 1495196214:0;telegram-cli
+: 1495196338:0;htop
+: 1495196341:0;pip
+: 1495196346:0;pip install
+: 1495196354:0;pip install --upgrade pip
+: 1495196365:0;sudo pip install --upgrade pip
+: 1495196387:0;pip install rainbowstream
+: 1495196409:0;sudo pip install rainbowstream
+: 1495196427:0;cd ..
+: 1495196444:0;rainbowstream
+: 1495196598:0;telegram-cli
+: 1495196693:0;sudo dnf install cmos
+: 1495196703:0;~
+: 1495196707:0;sudo dnf install cmos
+: 1495196782:0;sudo dnf install cmus
+: 1495196840:0;cmus
+: 1495197020:0;telegram-cli
+: 1495197477:0;~
+: 1495197482:0;sudo dnf config-manager --add-repo=http://negativo17.org/repos/fedora-spotify.repo
+: 1495197506:0;sudo dnf install spotify-client
+: 1495198213:0;sudo dnf install gitlab
+: 1495198228:0;sudo dnf search gitlab
+: 1495205201:0;cd Bin/Telegram
+: 1495205202:0;ls
+: 1495205206:0;./Updater
+: 1495222827:0;cd Downloads
+: 1495222829:0;ls
+: 1495222836:0;lsblk
+: 1495222862:0;dd if=Fedora-Workstation-Live-x86_64-25-1.3.iso of=/dev/sdc
+: 1495222867:0;sudo dd if=Fedora-Workstation-Live-x86_64-25-1.3.iso of=/dev/sdc
+: 1495228401:0;sudo dnf install stellarium
+: 1495228785:0;~
+: 1495229111:0;cd web
+: 1495229112:0;ls
+: 1495229143:0;git clone https://github.com/laravel/homestead.git Homestead
+: 1495229211:0;cd Homestead
+: 1495229357:0;sh init.sh
+: 1495229362:0;~
+: 1495229438:0;cd web/Homestead
+: 1495229439:0;ls
+: 1495229530:0;bash init.sh
+: 1495229552:0;mc
+: 1495229560:0;s
+: 1495231599:0;vagrant box add laravel/homestead
+: 1495231623:0;cd web
+: 1495231626:0;vagrant box add laravel/homestead
+: 1495264129:0;cd web
+: 1495264130:0;ls
+: 1495264237:0;cd Homestead
+: 1495264243:0;vim Homestead.yaml
+: 1495264503:0;ssh ipopovic@flance.rs
+: 1495265091:0;vagrant -v
+: 1495265108:0;vagrant up
+: 1495265138:0;sudo dnf install vagrant -y
+: 1495265184:0;sudo dnf remove vagrant
+: 1495265297:0;vagrant up
+: 1495265377:0;sudo vim /etc/hosts
+: 1495265415:0;htop
+: 1495265667:0;sudo systemctl stop httpd
+: 1495265682:0;sudo systemctl stop mysqld
+: 1495265900:0;sudo vim /etc/hosts
+: 1495266801:0;~\
+==> homestead-7: Running provisioner: shell...\
+/tmp/vagrant-shell20170520-4510-y64l0f.sh
+: 1495266811:0;vagrant halt
+: 1495266898:0;cd Downloads
+: 1495266918:0;lsblk
+: 1495266943:0;dd if=kali-linux-2017.1-amd64/kali-linux-2017.1-amd64.iso of=/dev/sdc
+: 1495266949:0;sudo dd if=kali-linux-2017.1-amd64/kali-linux-2017.1-amd64.iso of=/dev/sdc
+: 1495272208:0;ls
+: 1495272225:0;cat Homestead.yaml
+: 1495272239:0;vagrant up
+: 1495272291:0;~
+: 1495272298:0;sudo vim /etc/hosts
+: 1495273109:0;vagrant halt
+: 1495300665:0;cd Downloads
+: 1495300669:0;lsblk
+: 1495300699:0;sudo dd if=Fedora-Xfce-Live-x86_64-25-1.3.iso of=/dev/sdc
+: 1495352921:0;cd ..
+: 1495352923:0;cd web
+: 1495352924:0;ls
+: 1495352953:0;cd Homestead
+: 1495352954:0;ls
+: 1495354783:0;vagrant up
+: 1495354791:0;ls
+: 1495354796:0;cd ..
+: 1495354799:0;cd Homestead
+: 1495354800:0;ls
+: 1495354807:0;vagrant up
+: 1495355181:0;vagrant status
+: 1495355234:0;vagrant ssh
+: 1495355280:0;sudo /etc/hosts
+: 1495355290:0;sudo vim /etc/hosts
+: 1495355378:0;vagrant init
+: 1495355390:0;vagrant halt
+: 1495355407:0;vagrant up
+: 1495355497:0;sudo vim /etc/hosts
+: 1495355516:0;ping test.dev
+: 1495358252:0;vagrant halt
+: 1495362594:0;ls
+: 1495362597:0;cat aliases
+: 1495362604:0;l
+: 1495362899:0;cd ..
+: 1495362900:0;l
+: 1495362903:0;cd sites
+: 1495362922:0;laravel new ltest
+: 1495362968:0;l
+: 1495362971:0;cd ltest
+: 1495362972:0;ls
+: 1495363201:0;sudo vim /etc/hosts
+: 1495364173:0;cd ..
+: 1495364178:0;cd Homestead
+: 1495364183:0;vagrant up
+: 1495364333:0;vagrant ssh
+: 1495367646:0;vagrant halt
+: 1495367754:0;sudo vim /etc/hosts
+: 1495367788:0;vagrant up
+: 1495368150:0;sudo chmod -R 777 ../sites
+: 1495369199:0;vagrant halt
+: 1495402943:0;cmus
+: 1495403539:0;cd web
+: 1495403541:0;cd kuhinja
+: 1495403542:0;ls
+: 1495403547:0;php artisan serve
+: 1495403630:0;php artisan make:controller ReceptiCtrl
+: 1495403640:0;php artisan make:controller UnosrecCtrl
+: 1495403649:0;php artisan serve
+: 1495405948:0;sudo dnf install android-tools
+: 1495434243:0;l
+: 1495434262:0;cmus
+: 1495434285:0;telegram-cli
+: 1495434338:0;exit
+: 1495434648:0;wget -m https://laravel.rs/
+: 1495436426:0;l
+: 1495438286:0;sudo mc
+: 1495438346:0;l
+: 1495438357:0;cd www/fLance/Develop/flance
+: 1495438359:0;ls
+: 1495438364:0;git status
+: 1495438370:0;git add .
+: 1495438377:0;~
+: 1495438501:0;curl -L http://git.io/firefoxdev | sh
+: 1495438704:0;ln -s Bin/firefox-dev/firefox /usr/local/bin/firefox-dev
+: 1495438709:0;sudo ln -s Bin/firefox-dev/firefox /usr/local/bin/firefox-dev
+: 1495438779:0;firefox-dev
+: 1495439880:0;locate forefox.desktop
+: 1495439923:0;locate firefox.desktop
+: 1495439952:0;sudo vim /usr/share/applications/firefox.desktop
+: 1495484328:0;smus
+: 1495484332:0;cmus
+: 1495487748:0;mkdir jmWEB
+: 1495487752:0;cd jmWEB
+: 1495487756:0;wget -m http://buddhathemes.com/html/neocut/index.html
+: 1495487843:0;ls
+: 1495488141:0;wget -m http://wedesignthemes.com/html/redart/default/
+: 1495489063:0;ls
+: 1495490373:0;wget -m http://eyecix.com/html/cutting-edge/
+: 1495490590:0;ls
+: 1495490601:0;subl eyecix.com
+: 1495490647:0;telegram-cli
+: 1495522094:0;l
+: 1495522098:0;cd web
+: 1495522100:0;ls
+: 1495551035:0;cd ..
+: 1495551041:0;cd www/Laravel
+: 1495551049:0;composer create-project asgardcms/platform lcms
+: 1495551622:0;sudo chmod -R 777 web/lcms
+: 1495551693:0;sudo vim /etc/httpd/conf/httpd.conf
+: 1495605269:0;sudo mc /etc/httpd/conf/
+: 1495605308:0;sudo service httpd restart
+: 1495605545:0;systemctl is-active httpd.service
+: 1495605696:0;apachectl graceful
+: 1495605748:0;sudo subl /etc/httpd
+: 1495605761:0;sudo subl /etc/httpd/
+: 1495605766:0;sudo subl /etc/httpd/*
+: 1495605785:0;sudo subl /etc/httpd/conf/httpd.conf
+: 1495605796:0;sudo gedit /etc/httpd/conf/httpd.conf
+: 1495605803:0;sudo vim /etc/httpd/conf/httpd.conf
+: 1495606114:0;sudo service httpd restart
+: 1495606129:0;sudo vim /etc/httpd/conf/httpd.conf
+: 1495606260:0;sudo service httpd restart
+: 1495606399:0;sudo mc /etc/httpd/
+: 1495606656:0;sudo service httpd restart
+: 1495606797:0;sudo setsebool -P httpd_enable_homedirs 1
+: 1495606816:0;sudo setsebool -P httpd_read_user_content 1
+: 1495606928:0;sudo chmod +rx www
+: 1495606994:0;sudo service httpd restart
+: 1495607144:0;sudo mc /etc/httpd/
+: 1495607241:0;sudo service httpd restart
+: 1495607998:0;sudo mc /etc/httpd/
+: 1495608124:0;sudo vim /etc/httpd/conf/httpd.conf
+: 1495608205:0;sudo service httpd restart
+: 1495608279:0;appa
+: 1495608285:0;apachectl -v
+: 1495608291:0;sudo vim /etc/httpd/conf/httpd.conf
+: 1495608332:0;sudo service httpd restart
+: 1495616505:0;sudo rm -f /etc/httpd/conf.d/welcome.conf
+: 1495616520:0;sudo vim /etc/httpd/conf/httpd.conf
+: 1495616649:0;sudo service httpd restart
+: 1495616784:0;sudo adduser ipopovic apache
+: 1495616813:0;sudo usermod -g apache ipopovic
+: 1495633987:0;cd  www
+: 1495633991:0;cd Laravel
+: 1495633992:0;ls
+: 1495634006:0;mkdir lcms
+: 1495634013:0;cd lcms
+: 1495634015:0;ls
+: 1495634028:0;cd ..
+: 1495634036:0;php -r "eval('?>'.file_get_contents('https://octobercms.com/api/installer'));"
+: 1495634197:0;cd october
+: 1495634201:0;php -r "eval('?>'.file_get_contents('https://octobercms.com/api/installer'));"
+: 1495634224:0;ls
+: 1495634245:0;php artisan october:install
+: 1495634539:0;php artisan serve
+: 1495634644:0;sudo chmod -R 777 storage
+: 1495634688:0;php artisan serve
+: 1495634728:0;ls
+: 1495634734:0;mc
+: 1495634926:0;cd ..
+: 1495634934:0;laravel new ltest
+: 1495635001:0;cd ltest
+: 1495635040:0;cd ..
+: 1495635045:0;cd Homestead
+: 1495635052:0;vagrant up
+: 1495635333:0;vagrant halt
+: 1495659100:0;cd www
+: 1495659103:0;cd fLance
+: 1495659104:0;ls
+: 1495659168:0;vboxmanage list vms
+: 1495659558:0;cd Develop
+: 1495659573:0;git config --global user.name "Ivan Popovic"
+: 1495659579:0;git config --global user.email "ipop@flance.rs"\
+
+: 1495659585:0;git clone git@git.flance.rs:flancers/ifros.git
+: 1495659601:0;cd ifros
+: 1495659614:0;touch README.md
+: 1495659624:0;git add README.md
+: 1495659642:0;git commit -m "add README"
+: 1495659657:0;git push -u origin master
+: 1495659962:0;VBoxManage controlvm "Server" pause --type headless
+: 1495659993:0;VBoxManage startvm "Server" --type headless
+: 1495660335:0;ssh ipop@192.168.1.38
+: 1495661281:0;ls
+: 1495661283:0;mc
+: 1495661383:0;~
+: 1495661387:0;l .ssh
+: 1495663517:0;VBoxManage startvm "Server" poweroff --type headless
+: 1495663537:0;sudo VBoxManage startvm "Server" poweroff --type headless
+: 1495663589:0;htop
+: 1495663729:0;pkill VBoxSVC
+: 1495663733:0;pkill VBoxXPCOMIPCD
+: 1495697472:0;docker pull ipopovic/flance
+: 1495697578:0;docker pull ubuntu
+: 1495697587:0;sudo docker pull ubuntu
+: 1495697677:0;cd www/Homestead
+: 1495697682:0;vagrant up
+: 1495697789:0;cat /etc/hosts
+: 1495697820:0;vagrant reload --provision
+: 1495697954:0;vim Homestead.yaml
+: 1495698030:0;cd ..
+: 1495698032:0;ls
+: 1495698081:0;vagrant reload --provision
+: 1495698634:0;sudo vim /etc/hosts
+: 1495705612:0;vagrant halt
+: 1495705760:0;vagrant up
+: 1495706213:0;vagrant halt
+: 1495706431:0;~
+: 1495706442:0;ssh ipopovic@flance.rs
+: 1495714033:0;cd www/Laravel/microweber
+: 1495714037:0;composer install
+: 1495714087:0;ls
+: 1495714099:0;chmod 777 storage
+: 1495714105:0;chmod 777 
+: 1495714112:0;php artisan serve
+: 1495714346:0;php artisan migrate
+: 1495736383:0;ssh ipopovic@flance.rs
+: 1495781617:0;sudo vim /etc/httpd/conf/httpd.conf
+: 1495781759:0;sudo vim /etc/hosts
+: 1495781834:0;sudo systemctl restart httpd.service
+: 1495781857:0;sudo vim /etc/hosts
+: 1495782058:0;sudo vim /etc/httpd/conf/httpd.conf
+: 1495782135:0;sudo firefox
+: 1495782160:0;sudo firefox-dev
+: 1495782180:0;sudo google-chrome-stable
+: 1495782534:0;su -
+: 1495782766:0;ls
+: 1495782770:0;ls public
+: 1495782773:0;ls public_html
+: 1495782786:0;su -
+: 1495791224:0;ssh ipopovic@flance.rs
+: 1495798402:0;sudo chmod -R 777 www/test/microweber-latest
+: 1495811328:0;sudo chmod -R 777 www/test/anchor
+: 1495811344:0;npm
+: 1495818426:0;sudo chmod -R 777 www/test/anchor
+: 1495818468:0;sudo chmod -R 777 www/test/anchor/server/application/language
+: 1495818475:0;sudo chmod -R 777 www/test/anchor/server/config
+: 1495818481:0;sudo chmod -R 777 www/test/anchor/server/files-folder
+: 1495818485:0;sudo chmod -R 777 www/test/anchor/server/tmp
+: 1495818629:0;sudo chmod 777 www/test/anchor/server/tmp -R
+: 1495818642:0;sudo chmod -R 777 www/test/anchor/server/application/language/
+: 1495818653:0;sudo chmod -R 777 www/test/anchor/server/
+: 1495818661:0;sudo chmod  777 www/test/anchor/server/ -R
+: 1495820240:0;sudo chmod -R 777 www/test/anchor
+: 1495830849:0;ssh ipopovic@flance.rs
+: 1495864921:0;cd www
+: 1495864922:0;ls
+: 1495864933:0;mc
+: 1495864958:0;ll
+: 1495864959:0;l
+: 1495864992:0;mv samples-gh-pages.zip Archive
+: 1495864999:0;mv sdk-master.zip Archive
+: 1495865001:0;l
+: 1495865022:0;mkdir bvttod
+: 1495865040:0;mv cdb7/*.* bvttod
+: 1495865041:0;l
+: 1495865046:0;ls cdb7
+: 1495865050:0;mc
+: 1495865271:0;ssh ipopovic@flance.rs
+: 1495878215:0;sudo dnf unrar
+: 1495878225:0;sudo dnf install unrar
+: 1495878235:0;sudo dnf install rar
+: 1495878242:0;sudo dnf search rar
+: 1495878326:0;unrar
+: 1495878331:0;cd Desktop
+: 1495878342:0;unrar pre_coffee.rar
+: 1495878400:0;unrar -x pre_coffee.rar
+: 1495956870:0;cd Bin/android-studio/bin
+: 1495956872:0;./studio.sh
+: 1495959997:0;cd ..
+: 1495960000:0;cd bin
+: 1495960002:0;./studio.sh
+: 1495968010:0;cd ..
+: 1495968020:0;cd PhpStorm-163.10504.2
+: 1495968084:0;cd bin
+: 1495968085:0;ls
+: 1495968142:0;l
+: 1495968168:0;htop
+: 1495968239:0;l
+: 1495968242:0;htop
+: 1495976100:0;cd /var/www
+: 1495976111:0;~
+: 1495976115:0;cd www/test
+: 1495976129:0;sudo chmod -R 777 microweber-1.0.8
+: 1495976296:0;cd microweber-1.0.8
+: 1495976301:0;composer install
+: 1495976881:0;ls
+: 1495976886:0;php artisan serve
+: 1495977086:0;systemctl restart httpd.service
+: 1495998559:0;cd
+: 1495998568:0;ssh ipopovic@flance.rs
+: 1496058067:0;htop
+: 1496058251:0;ssh ipopovic@flance.rs
+: 1496064456:0;youtube-dl https://www.youtube.com/watch\?v\=-0MdoAcis4M\&index\=65\&list\=WL\&t\=472s
+: 1496064472:0;youtube-dl https://youtu.be/-0MdoAcis4M
+: 1496064943:0;sudo dnf update
+: 1496067662:0;cd Downloads
+: 1496067665:0;jar
+: 1496088403:0;sudo mc
+: 1496088527:0;sudo dnf remove vagrant
+: 1496088783:0;sudo dnf remove viber
+: 1496089185:0;rm Buddhist\ meditation\ music\ relax\ mind\ body,\ relaxing\ meditation\ chant,\ relaxation\ music\ 30209M--0MdoAcis4M.mkv
+: 1496089187:0;ls
+: 1496089249:0;youtube-dl --extract-audio --audio-format mp3 https://youtu.be/-0MdoAcis4M
+: 1496090000:0;0;95;26M0;95;26m~
+: 1496090013:0;cat .ssh/id_rsa.pub
+: 1496123521:0;l
+: 1496123524:0;ls
+: 1496123526:0;ls -l
+: 1496123542:0;git clone git@git.flance.rs:ipop/ToDo.git
+: 1496123549:0;cd ToDo
+: 1496123552:0;ls
+: 1496123564:0;sudo dnf task
+: 1496123576:0;sudo dnf install task
+: 1496123585:0;task
+: 1496123599:0;task add test task
+: 1496123602:0;tasks
+: 1496123605:0;task
+: 1496123755:0;task add Read Taskwarrior documents later
+: 1496123792:0;task add priority:H Pay Bills 
+: 1496123797:0;task next
+: 1496123820:0;task 2 done
+: 1496123832:0;task next
+: 1496123984:0;task add Task sync with gitlab
+: 1496123988:0;task
+: 1496124003:0;ls
+: 1496124007:0;git status
+: 1496124012:0;git add .
+: 1496124055:0;git commit -m 'Task sync shed'
+: 1496124065:0;git push oriign master
+: 1496124075:0;git push origign master
+: 1496124081:0;git push origin master
+: 1496137099:0;ssh ipopovic@flance.rs
+: 1496144419:0;cd www/Laravel
+: 1496144426:0;laravel new ticket
+: 1496144761:0;cd Bin/PhpStorm-171.4694.2
+: 1496144763:0;cd bin
+: 1496144766:0;./phpstorm.sh
+: 1496151000:0;cd ticket
+: 1496151013:0;htop
+: 1496151139:0;php artisan migrate:reset
+: 1496151197:0;php artosan make:controller PagesController
+: 1496151202:0;php artisan make:controller PagesController
+: 1496154757:0;php artisan list
+: 1496155104:0;php artisan migrate:reset
+: 1496155111:0;php artisan make:migration create_tickets_table
+: 1496155231:0;php artisan make:migration create_tickets_table --create=tickets
+: 1496155253:0;php artisan make:migration create_tickets_table
+: 1496155263:0;php artisan migrate:reset
+: 1496155267:0;php artisan make:migration create_tickets_table --create=tickets
+: 1496155278:0;php artisan migrate:help
+: 1496155287:0;php artisan migrate:rollback
+: 1496155296:0;php artisan migrate:refresh
+: 1496155308:0;php artisan make:migration create_tickets_table --create=tickets
+: 1496155382:0;composer update
+: 1496155520:0;php artisan cache:help
+: 1496155524:0;php artisan cache:clear
+: 1496155527:0;php artisan make:migration create_tickets_table --create=tickets
+: 1496155666:0;php artisan migrate
+: 1496156002:0;php artisan make:model Ticket
+: 1496156683:0;php artisan serve
+: 1496156860:0;php artisan make:controller TicketsController --resource
+: 1496156949:0;php artisan make:request TicketFormRequest
+: 1496179825:0;composer require "laravelcollective/html":"^5.4.0"
+: 1496180091:0;php artisan serve
+: 1496217585:0;git clone https://github.com/plasma-phone-packaging/pm-flashtool.git
+: 1496217612:0;fastboot format cache
+: 1496217764:0;sudo fastboot format cache
+: 1496217782:0;fastboot format userdata
+: 1496217789:0;sudo fastboot format userdata
+: 1496217834:0;ls
+: 1496217843:0;cd pm-flashtool
+: 1496217844:0;ls
+: 1496217857:0;./pm-flash -p neon
+: 1496217863:0;sudo ./pm-flash -p neon
+: 1496219058:0;cd ..
+: 1496219065:0;cd Downloads/hammerhead-m4b30z-factory-625c027b/hammerhead-m4b30z
+: 1496219084:0;sudo ./flash-all.sh
+: 1496238208:0;htop
+: 1496239981:0;cd Downloads
+: 1496239983:0;ls
+: 1496239987:0;lsblk
+: 1496240051:0;dd if=Fedora-Workstation-Live-x86_64-25-1.3.iso of=/dev/sdc
+: 1496240055:0;sudo dd if=Fedora-Workstation-Live-x86_64-25-1.3.iso of=/dev/sdc
+: 1496240211:0;ssh ipopovic@flance.rs
+: 1496244198:0;sudo dnf clean all
+: 1496244789:0;df -h
+: 1496262660:0;cd www/test
+: 1496262702:0;mkdir polymer-test
+: 1496262706:0;cd polymer-test
+: 1496262736:0;npm install -g polymer-cli
+: 1496262846:0;sudo npm install -g polymer-cli
+: 1496265735:0;cd www/Laravel
+: 1496265748:0;laravel new frontend
+: 1496265787:0;sudo mc
+: 1496265948:0;sudo dnf remove atom
+: 1496266230:0;cd frontend
+: 1496266231:0;ls
+: 1496266338:0;php artisan serve
+: 1496295747:0;make mi a sendwich
+: 1496295753:0;make me a sendwich
+: 1496295768:0;make a sendwich
+: 1496295773:0;make  sendwich
+: 1496297485:0;cd www/Laravel/frontend
+: 1496297487:0;ls
+: 1496297492:0;php artisan serve
+: 1496297835:0;cd ..
+: 1496297846:0;ls
+: 1496297855:0;cd ..
+: 1496297856:0;ls
+: 1496297866:0;ls Bin
+: 1496297886:0;cat .taskrc
+: 1496297894:0;cd ToDo
+: 1496297895:0;ls
+: 1496298087:0;vim sublime-text-lic
+: 1496298116:0;git add .
+: 1496298147:0;git commit -m 'Added sublime lic'
+: 1496298158:0;git push origin master
+: 1496298277:0;sudo dnf update
+: 1496299144:0;vim phpstorm-lic
+: 1496299336:0;git add .
+: 1496299346:0;git commit -m 'Added phpstorm lic'
+: 1496299471:0;git push origin master
+: 1496299662:0;cd ..
+: 1496299672:0;cd www/fLance/Develop/ifros
+: 1496299682:0;laravel new ifros
+: 1496299699:0;cd ..
+: 1496299700:0;mc
+: 1496299727:0;php artisan serve
+: 1496300062:0;git add .
+: 1496300090:0;git commit -m 'Laravel Framework Added'
+: 1496300100:0;git push origin master
+: 1496306352:0;rpm -q kernel
+: 1496306364:0;uname 0r
+: 1496306366:0;uname -r
+: 1496306443:0;rpm -Uvh kernel
+: 1496306475:0;locate kernel-4.8.6-300.fc25.x86_64
+: 1496353762:0;sudo dnf install php5-xsl
+: 1496353782:0;sudo dnf install php7-
+: 1496353789:0;sudo dnf install php7-xsl
+: 1496387243:0;ssh ipopovic@flance.rs
+: 1496397417:0;adb devices
+: 1496397427:0;adb devices l
+: 1496397431:0;adb devices -l
+: 1496398699:0;cd bullhead-n2g47o-factory-3ff32f55
+: 1496398700:0;ls
+: 1496398703:0;cd bullhead-n2g47o
+: 1496398706:0;l
+: 1496398817:0;sudo ./flash-all.sh
+: 1496415699:0;mc
+: 1496416154:0;git init
+: 1496416200:0;git remote add origin git@gitlab.com:ipopovic/xml2txt.git
+: 1496416205:0;git add .
+: 1496416213:0;git commit -m "Initial commit"
+: 1496416225:0;git push -u origin master
+: 1496416553:0;ls
+: 1496416561:0;vim urllist.txt
+: 1496437465:0;git add .
+: 1496437499:0;git commit -m 'Added write txt fiel for temp'
+: 1496437515:0;git push origin master
+: 1496439014:0;git add .
+: 1496439025:0;git commit -m 'Some changes'
+: 1496439029:0;git push origin master
+: 1496439035:0;l
+: 1496473324:0;cd www/Laravel/LL
+: 1496473360:0;laravel new building_first_web
+: 1496473556:0;cd building_first_web
+: 1496473561:0;php artisan serve
+: 1496482055:0;node -v
+: 1496482059:0;npm -v
+: 1496482069:0;npm install
+: 1496482369:0;npm run dev
+: 1496482544:0;npm run watch
+: 1496487148:0;gnome-terminal
+: 1496487412:0;php artisan serve
+: 1496523624:0;cd ..
+: 1496523638:0;cd Building\ A\ Support\ Ticket\ System
+: 1496523640:0;ls
+: 1496523648:0;composer install
+: 1496523908:0;php artisan key:generate
+: 1496523912:0;php artisan serve
+: 1496524294:0;php artisan migrate:reset
+: 1496524386:0;php artisan make:controller PageController
+: 1496524445:0;php artisan make:migration create_tickets_table
+: 1496526227:0;php artisan make:migration create_tickets_table --create=tickets
+: 1496526246:0;php artisan help
+: 1496526261:0;php artisan clear help
+: 1496526266:0;php artisan clear:
+: 1496526273:0;php artisan cle
+: 1496526282:0;php artisan cl
+: 1496526284:0;php artisan c
+: 1496526295:0;php artisan cache:clear
+: 1496526300:0;php artisan make:migration create_tickets_table --create=tickets
+: 1496526514:0;ls
+: 1496526520:0;ls database/migrations
+: 1496526549:0;php artisan make:migration create_tickets_table --create=tickets
+: 1496526575:0;cat ~/.zsh_history
+: 1496526589:0;cat ~/.zsh_history >> commands_bpk.txt
